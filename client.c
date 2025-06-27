@@ -70,7 +70,7 @@ int main(int argc, char *argv[]) {
 
     char msg[BUF_SIZE];
     while (1) {
-        printf("> ");
+        printf("[Client]");
         fflush(stdout);
         if (fgets(msg, BUF_SIZE, stdin)) {
             if (strncmp(msg, "/exit", 5) == 0) break;
