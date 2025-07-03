@@ -3,12 +3,19 @@ OVERVIEW OF WEEK -1
 Communication Layering and UDP Chat System
 1. Summary of OSI Model with Protocol Examples
 Layer	Layer Number	Function	Example Protocols
+
 Application	7	User interaction, application services	HTTP, FTP, SMTP, DNS
+
 Presentation	6	Data encoding, encryption, compression	SSL/TLS, JPEG, ASCII
+
 Session	5	Dialog control, session management	NetBIOS, RPC
+
 Transport	4	Reliable delivery, flow control	TCP, UDP
+
 Network	3	Routing and addressing	IP, ICMP, ARP
+
 Data Link	2	Frame-level error detection, MAC	Ethernet, PPP, HDLC
+
 Physical	1	Electrical signals, transmission media	RS-232, Ethernet cables, Wi-Fi, DSL
 
 3. Code Implementations
@@ -62,5 +69,6 @@ Server can also send messages to clients
 Command-line Interface
 Server:
 ./server <port>
+
 Client:
 ./client <server_ip> <port> <username>
