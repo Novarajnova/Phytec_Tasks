@@ -82,3 +82,11 @@ Server:
 
 Client:
 ./client <server_ip> <port> <username>
+
+
+OUTPUT :
+----------
+[RB-A5D2X SERVER](https://github.com/user-attachments/assets/c741e2c6-bed8-46c8-9a1e-18ac0ee05894)
+[RB-A5D2X CLIENT](https://github.com/user-attachments/assets/9fcc2929-0879-40ac-8c78-7614da327168)
+
+
