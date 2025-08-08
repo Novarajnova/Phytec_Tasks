@@ -1,0 +1,15 @@
+| Feature / Aspect            | **Pipes**                                 | **Message Queues**                             | **Shared Memory**                          |
+| --------------------------- | ----------------------------------------- | ---------------------------------------------- | ------------------------------------------ |
+| 🔁 **Type**                 | Byte stream (unstructured)                | Structured (messages with types)               | Memory block (structured by user)          |
+| 🔗 **Communication**        | Unidirectional (by default), parent-child | Bidirectional (with proper setup)              | Bidirectional (requires sync mechanism)    |
+| 👨‍👦 **Relationship**      | Usually between parent-child processes    | Between any processes with proper key          | Between any processes with shared key      |
+| ⚙️ **Setup Complexity**     | Easy (`pipe()`, `fork()`)                 | Moderate (`msgget()`, `msgsnd()`, `msgrcv()`)  | More complex (`shmget()`, `shmat()`, etc.) |
+| 📦 **Data Handling**        | Byte-based (no message boundaries)        | Message-based (atomic send/receive)            | Raw memory (user-defined structure)        |
+| ⚡ **Speed**                 | Slowest (due to system calls)             | Medium (kernel-managed buffer)                 | Fastest (direct memory access)             |
+| 🔐 **Synchronization**      | Not needed (FIFO)                         | Built-in (message ordering)                    | Needs semaphores or mutexes for sync       |
+| 🧠 **Persistence (Kernel)** | Temporary (till processes end)            | Persistent until explicitly deleted            | Persistent until deleted via `shmctl()`    |
+| 📍 **Location**             | Kernel buffers                            | Kernel space                                   | Shared memory segment                      |
+| 🧵 **Thread-Safety**        | No inherent support                       | Yes (kernel synchronizes messages)             | No (requires additional synchronization)   |
+| 📚 **Use Case**             | Simple parent-child communication         | Structured IPC with multiple processes         | Large data sharing (e.g., images, arrays)  |
+| 💥 **Failure Risk**         | Low                                       | Medium (if not cleaned, MQ can stay in kernel) | High (race conditions if no semaphores)    |
+
