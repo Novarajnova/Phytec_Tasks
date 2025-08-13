@@ -1,0 +1,11 @@
+connections/org.eclipse.remote.serial.core.connectionType/demotest/serial.baudRate=11
+connections/org.eclipse.remote.serial.core.connectionType/demotest/serial.byteSize=3
+connections/org.eclipse.remote.serial.core.connectionType/demotest/serial.parity=0
+connections/org.eclipse.remote.serial.core.connectionType/demotest/serial.portName=/dev/ttyACM1
+connections/org.eclipse.remote.serial.core.connectionType/demotest/serial.stopBits=0
+connections/org.eclipse.remote.serial.core.connectionType/uart-test/serial.baudRate=11
+connections/org.eclipse.remote.serial.core.connectionType/uart-test/serial.byteSize=3
+connections/org.eclipse.remote.serial.core.connectionType/uart-test/serial.parity=0
+connections/org.eclipse.remote.serial.core.connectionType/uart-test/serial.portName=/dev/ttyACM0
+connections/org.eclipse.remote.serial.core.connectionType/uart-test/serial.stopBits=0
+eclipse.preferences.version=1

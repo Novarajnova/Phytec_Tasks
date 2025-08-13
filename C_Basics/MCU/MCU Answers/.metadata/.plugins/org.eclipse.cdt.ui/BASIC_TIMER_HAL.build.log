@@ -1,0 +1,10 @@
+15:25:06 **** Incremental Build of configuration Debug for project BASIC_TIMER_HAL ****
+make -j4 all 
+arm-none-eabi-size  BASIC_TIMER_HAL.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9012	     12	   1644	  10668	   29ac	BASIC_TIMER_HAL.elf
+Finished building: default.size.stdout
+ 
+
+15:25:06 Build Finished. 0 errors, 0 warnings. (took 145ms)
+

@@ -1,0 +1,10 @@
+../Core/Src/main.c:33:6:uart_print	1
+../Core/Src/main.c:37:6:handle_flag1	1
+../Core/Src/main.c:43:6:handle_flag2	1
+../Core/Src/main.c:47:6:handle_flag3	1
+../Core/Src/main.c:85:5:main	7
+../Core/Src/main.c:170:6:SystemClock_Config	3
+../Core/Src/main.c:218:13:MX_TIM2_Init	4
+../Core/Src/main.c:263:6:MX_USART2_UART_Init	2
+../Core/Src/main.c:285:13:MX_GPIO_Init	1
+../Core/Src/main.c:337:6:Error_Handler	1

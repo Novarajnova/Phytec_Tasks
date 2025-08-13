@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.cdt.ui.CElementWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1753521798772_2" label="LED_BLINK" name="LED_BLINK"/>
+<workingSet editPageId="org.eclipse.cdt.ui.CElementWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1753521828699_3" label="PRACTICE" name="PRACTICE"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1753521050138_0" label="Window Working Set" name="Aggregate for window 1753521050138"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1753521114457_1" label="Window Working Set" name="Aggregate for window 1753521114457"/>
+<mruList name="PRACTICE"/>
+<mruList name="LED_BLINK"/>
+</workingSetManager>

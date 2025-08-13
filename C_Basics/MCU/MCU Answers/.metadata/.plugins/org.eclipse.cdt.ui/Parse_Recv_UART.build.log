@@ -1,0 +1,10 @@
+17:17:08 **** Incremental Build of configuration Debug for project Parse_Recv_UART ****
+make -j4 all 
+arm-none-eabi-size  Parse_Recv_UART.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34564	    468	   2004	  37036	   90ac	Parse_Recv_UART.elf
+Finished building: default.size.stdout
+ 
+
+17:17:08 Build Finished. 0 errors, 0 warnings. (took 145ms)
+

@@ -1,0 +1,10 @@
+17:16:09 **** Incremental Build of configuration Debug for project Array_DH_UART ****
+make -j4 all 
+arm-none-eabi-size  Array_DH_UART.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27296	    468	   2036	  29800	   7468	Array_DH_UART.elf
+Finished building: default.size.stdout
+ 
+
+17:16:09 Build Finished. 0 errors, 0 warnings. (took 199ms)
+

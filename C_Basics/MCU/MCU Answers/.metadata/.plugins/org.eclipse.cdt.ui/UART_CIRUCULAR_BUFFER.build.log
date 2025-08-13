@@ -1,0 +1,10 @@
+18:14:28 **** Incremental Build of configuration Debug for project UART_CIRUCULAR_BUFFER ****
+make -j4 all 
+arm-none-eabi-size  UART_CIRUCULAR_BUFFER.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12020	     12	   1780	  13812	   35f4	UART_CIRUCULAR_BUFFER.elf
+Finished building: default.size.stdout
+ 
+
+18:14:28 Build Finished. 0 errors, 0 warnings. (took 139ms)
+

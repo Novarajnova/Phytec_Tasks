@@ -1,0 +1,10 @@
+15:11:27 **** Incremental Build of configuration Debug for project TIMER_LED_BAREMETAL ****
+make -j4 all 
+arm-none-eabi-size  TIMER_LED_BAREMETAL.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1052	      4	   1572	   2628	    a44	TIMER_LED_BAREMETAL.elf
+Finished building: default.size.stdout
+ 
+
+15:11:27 Build Finished. 0 errors, 0 warnings. (took 148ms)
+

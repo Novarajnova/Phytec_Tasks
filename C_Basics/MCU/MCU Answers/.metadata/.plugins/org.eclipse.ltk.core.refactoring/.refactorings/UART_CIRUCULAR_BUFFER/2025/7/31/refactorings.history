@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;UART_CIRUCULAR_BUFFER/Core/Inc/uart_circular_buffer&apos; to &apos;uart_circular_buffer.h&apos;" description="Rename resource &apos;uart_circular_buffer&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/uart_circular_buffer" name="uart_circular_buffer.h" stamp="1753696921365" updateReferences="true"/>
+</session>

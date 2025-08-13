@@ -1,0 +1,10 @@
+17:25:42 **** Incremental Build of configuration Debug for project UART_FSM ****
+make -j4 all 
+arm-none-eabi-size  UART_FSM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12488	     12	   1644	  14144	   3740	UART_FSM.elf
+Finished building: default.size.stdout
+ 
+
+17:25:42 Build Finished. 0 errors, 0 warnings. (took 197ms)
+

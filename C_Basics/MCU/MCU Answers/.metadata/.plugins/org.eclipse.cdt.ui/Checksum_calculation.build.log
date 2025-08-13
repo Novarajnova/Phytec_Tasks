@@ -1,0 +1,10 @@
+16:55:39 **** Incremental Build of configuration Debug for project Checksum_calculation ****
+make -j4 all 
+arm-none-eabi-size  Checksum_calculation.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14396	     92	   1972	  16460	   404c	Checksum_calculation.elf
+Finished building: default.size.stdout
+ 
+
+16:55:39 Build Finished. 0 errors, 0 warnings. (took 147ms)
+
